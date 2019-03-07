@@ -1,0 +1,97 @@
+/* Your custom css code goes here */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+body{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	color: #43494e;
+}
+.probootstrap-header{
+ background: rgba(0,0,0,0.10)
+}
+h1, h2, .heading-with-icon, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.timeline{
+	font-size: 16px;
+}
+.probootstrap-intro .probootstrap-intro-text{
+	margin-top: 50%;
+}
+.probootstrap-intro h1{
+	font-size: 5em;
+	line-height: 1em;
+	color: #fff;
+	text-shadow: 2px 2px 5px #505050;
+
+}
+
+.row-mt-20{
+	margin-top: 20px;
+}
+
+.probootstrap-intro .probootstrap-subtitle .heading-with-icon, .probootstrap-intro .probootstrap-subtitle h2{
+	color: #fff;
+	font-size: 2em;
+}
+.probootstrap-heading{
+	margin-top: 0px;
+	font-family: 'Poppins',sans-serif;
+}
+.probootstrap-heading:after{
+	background: #d90098;
+}
+p{
+	margin: 0 0 10px;
+}
+a{
+	color: #525252;
+	font-weight: 600;
+}
+.bold{
+	font-weight: bold;
+	color: #d90098;
+}
+
+.img-thumbnail{
+	border:none;
+	max-width: 80%;
+}
+
+.img-case{
+	max-width: 85%;
+	border: 1px solid #eee;
+	margin-top: 30px;
+}
+.img-case-yle{
+	max-width: 90%;
+}
+
+.probootstrap-footer{
+	padding: 10px;
+	background: #d90098;
+}
+
+.mb0{
+	font-size:10px;
+}
+@media (min-width: 992px){
+	.probootstrap-intro .probootstrap-intro-text{
+	margin-top: 30%;
+}
+}
+@media screen and (max-width: 768px){
+	.probootstrap-intro .probootstrap-intro-text{
+		margin-top: 50%;
+	}
+
+	.probootstrap-intro h1{
+		font-size: 3em;
+		line-height: 1em;
+		color: #fff;
+		text-shadow: 2px 2px 5px #505050;
+	}
+}

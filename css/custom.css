@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #43494e;
 }
 .probootstrap-header{
@@ -15,6 +15,10 @@ h1, h2, .heading-with-icon, h3, h4 {
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   color: #000000;
+}
+h4.case-info-hl{
+	color: #d90098;
+	margin-top: 1em;
 }
 .timeline{
 	font-size: 16px;
@@ -52,9 +56,16 @@ a{
 	color: #525252;
 	font-weight: 600;
 }
+.caption{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Poppins',sans-serif;
+}
 .bold{
 	font-weight: bold;
 	color: #d90098;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 0px;
 }
 
 .img-thumbnail{
@@ -63,12 +74,14 @@ a{
 }
 
 .img-case{
-	max-width: 85%;
-	border: 1px solid #eee;
-	margin-top: 30px;
-}
-.img-case-yle{
 	max-width: 90%;
+	margin: 20px auto;
+
+}
+
+.img-case-small{
+	max-width: 80%;
+	margin: 20px auto;
 }
 
 .probootstrap-footer{

@@ -9,6 +9,9 @@ body{
 .probootstrap-header{
  background: rgba(0,0,0,0.10)
 }
+.probootstrap-intro{
+	background-image: url("../img/me.jpeg");
+}
 .introduction{
 	background-color: #f0f8ff;
 }

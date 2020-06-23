@@ -121,7 +121,7 @@ p{
 	font-size:10px;
 }
 
-.embed-container, .mt20{
+.embed-container{
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;

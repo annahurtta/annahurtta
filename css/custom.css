@@ -102,14 +102,13 @@ p{
 }
 
 .img-case{
-	max-width: 90%;
-	margin: 20px auto;
+	max-width: 80%;
+	margin: 40px auto 10px auto;
 
 }
 
 .img-case-small{
-	max-width: 80%;
-	margin: 20px auto;
+	max-width: 60%;
 }
 
 .probootstrap-footer{

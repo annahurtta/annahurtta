@@ -7,20 +7,22 @@ body{
 	color: #43494e;
 }
 .probootstrap-header{
- background: rgba(0,0,0,0.10)
+ background: rgba(0,0,0,0.35);
+ position: relative;
 }
 .probootstrap-intro{
 	background-image: url("../img/me.jpeg");
 }
-.introduction{
-	background-color: #f0f8ff;
-}
-h1, h2, .heading-with-icon, h3, h4 {
+
+h1, h2, .heading-with-icon, .probootsrap-program, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: 400;
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   color: #000000;
+}
+h1{
+	margin-top: 1em;
 }
 h3.company{
 	margin-bottom: 0.2em;
@@ -28,6 +30,12 @@ h3.company{
 h4.case-info-hl{
 	color: #d90098;
 	margin-top: 1em;
+}
+a.link-case{
+	color: #43494e;
+}
+a.link-case:hover > h3{
+	color: #d90098;
 }
 .title{
 	color: #d90098;
@@ -74,11 +82,20 @@ h4.case-info-hl{
 	font-family: 'Poppins',sans-serif;
 }
 .intro-me{
-	font-size: 24px;
+	font-size: 26px;
 }
 .probootstrap-heading:after{
 	background: #d90098;
 }
+
+.probootstrap-program{
+	padding-bottom: 30px;
+}
+
+.probootstrap-program h3{
+	line-height: 1.2em;
+}
+
 p{
 	margin: 0 0 10px;
 }
@@ -109,6 +126,10 @@ p{
 
 .img-case-small{
 	max-width: 60%;
+}
+
+.img-cover-case{
+	background-color: #a5d0e8;
 }
 
 .probootstrap-footer{

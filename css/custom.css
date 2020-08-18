@@ -138,7 +138,11 @@ p{
 }
 
 .img-gif{
-	max-width: 30%;
+	max-width: 35%;
+}
+
+.img-gif-sidebyside{
+	max-width: 70%;
 }
 
 .probootstrap-footer{
@@ -180,5 +184,9 @@ p{
 		font-size: 3em;
 		line-height: 1em;
 		color: #fff;
+	}
+
+	.img-gif-sidebyside{
+		max-width: 35%;
 	}
 }

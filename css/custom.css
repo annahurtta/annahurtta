@@ -133,6 +133,10 @@ p{
 	background-color: #a5d0e8;
 }
 
+.img-gif{
+	max-width: 30%;
+}
+
 .probootstrap-footer{
 	padding: 10px;
 	background: #d90098;

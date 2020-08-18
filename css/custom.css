@@ -27,6 +27,9 @@ h1{
 h3.company{
 	margin-bottom: 0.2em;
 }
+.cv-link{
+	color: #d90098;
+}
 h4.case-info-hl{
 	color: #d90098;
 	margin-top: 1em;

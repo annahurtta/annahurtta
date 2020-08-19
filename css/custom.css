@@ -147,15 +147,26 @@ p{
 .img-case-small{
 	max-width: 60%;
 }
-
+.probootstrap-footer{
+	padding: 10px;
+	background: #d90098;
+}
 .case-thesis{
 	background-color: #fdffb6;
+	color: #43494e;
+}
+.case-thesis h4{
+	color: #43494e !important;
 }
 .case-booking-app{
 	background-color: #FFADAD;
 }
 .case-dsd{
 	background-color: #FFD6A5;
+	color: #43494e;
+}
+.case-dsd h4{
+	color: #43494e !important;
 }
 .case-me310{
 	background-color: #A0C4FF;
@@ -168,10 +179,7 @@ p{
 	max-width: 70%;
 }
 
-.probootstrap-footer{
-	padding: 10px;
-	background: #d90098;
-}
+
 
 .mb0{
 	font-size:10px;

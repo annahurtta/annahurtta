@@ -6,10 +6,6 @@ body{
 	font-size: 16px;
 	color: #43494e;
 }
-.probootstrap-header{
- background: rgba(0,0,0,0.35);
- position: relative;
-}
 .probootstrap-intro{
 	background-image: url("../img/me.jpeg");
 }
@@ -40,6 +36,25 @@ a.link-case{
 }
 a.link-case:hover > h3{
 	color: #d90098;
+}
+
+.header-bookingapp{
+	background-color: #FFADAD;
+}
+.header-thesis{
+	background-color: #fdffb6;
+}
+.case-study-cover{
+	margin: 0 auto;
+}
+.mw15{
+	max-width: 15%;
+}
+.mw70{
+	max-width: 70%;
+}
+.mw40{
+	max-width: 40%;
 }
 .title{
 	color: #d90098;
@@ -133,10 +148,18 @@ p{
 	max-width: 60%;
 }
 
-.img-cover-case{
-	background-color: #a5d0e8;
+.case-thesis{
+	background-color: #fdffb6;
 }
-
+.case-booking-app{
+	background-color: #FFADAD;
+}
+.case-dsd{
+	background-color: #FFD6A5;
+}
+.case-me310{
+	background-color: #A0C4FF;
+}
 .img-gif{
 	max-width: 35%;
 }
@@ -152,6 +175,10 @@ p{
 
 .mb0{
 	font-size:10px;
+}
+
+.mr10{
+	margin-right: 10px;
 }
 
 .embed-container{

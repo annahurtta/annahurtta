@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>annahurtta</title>
+    <meta name="description" content="Anna Hurtta">
+    
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/ea8650ee42.js" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <section id="header" class="probootstrap-section case-redesign-app">
+    <img src="img/redesign-cover.png" alt="Redesigning K-Ruoka app" class="img-responsive img-rounded case-study-cover mw40">
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt20">
+        <a href="index.html"><i class="fas fa-arrow-left mr10"></i>Go Back</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="highlights" class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 probootstrap-relative">
+            <h2 class="probootstrap-heading">How to improve the shopping experience in grocery apps? - Redesigning K-Ruoka app</h2>
+          </div>
+        </div>
+        <div class="row mt20">
+          <div class="col-md-12 mb20">
+            <h3>Own UX project</h3>
+          </div>
+          <div class="col-md-4">
+            <p class="title">Background</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>I have tried few times grocery shopping online due to COVID situation. I have had some problems making the order becuase I have been confused with either choosing the shop or browsing the items. I have tested the service with Foodie and K-Ruoka. In mobile I like Foodie and in desktop I like K-Ruoka. So, I tried to combine the best from each and also benchmark how Amazon have designed the grocery shopping.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="title">Goal</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>My goal was to ideate a new concept and simplify user journey in online grocery shopping because I felt that the process of choosing a store, browsing and picking items to shopping cart and purchasing wasn't straightforward enough. I also felt that there were opportunities for the businesses to promote their offering and use the personal shopping data better. My idea of a solution and concept is more to the user who likes to browse the offering.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="title">Research</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>I started the project by using both Foodie and K-Ruoka in order to get familiar with the services. I have made an order with both of the services in desktop and then tested both apps.</p>
+            <p>While testing and making an order I wrote down some notes and differences with the two services while I was browsing and searching items. Here are my thougths on the UX in Foodie (dektop)</p>
+            <ul class="responsibilities">
+                <li>Choosing the store is confusing because it's easy to just start shopping and only after then realize the store is wrong. The logging in also changes the store.</li>
+                <li>Browsing recipes and then adding those to cart is done pretty automatically and it changes for example 6 potatos to a one bag of potatos for the shopping cart.</li>
+                <li>Some improvments could be made to incomplete search results, because "nachos" didn't find "tortilla chips" and as a normal consumer I don't know what the diffrence is.</li>
+                <li>The search results also appear a bit too slow. There was few times when I thought it didn't find the item I was searching because I didn't scroll and wait enough. In addition the search happen only after I press enter or click search.</li>
+                <li>The search result list could be personalized because the "minced meat" search query gives me the dog's minced meat item first.</li>
+                <li>I can sort the search result for example based on price which is good.</li>
+              </ul>
+            <img src="img/foodie-notes.jpg" alt="Foodie" class="img-responsive img-case">
+            <p class="caption mb20">Screenshot of Foodie.</p>
+            <p>After I used Foodie I tried K-Ruoka (desktop) and wrote down notes and made some comparison between with Foodie.</p>
+              <ul class="responsibilities">
+                <li>Choosing the shop is effortless because of the overlay that opens. The chosen shop is also more visible which reduces errors.</li>
+                <li>Browsing receips is a bit disconnected from the actual shopping. It gives more choices but it doesn't communicate with the items as well as the Foodie because it suggest items which are not available in the chosen store. In addition, the service reminds the user to choose the shop even though the store is chosen which confused me.</li>
+                <li>The search results download fast and appear while scrolling better than in Foodie. The search results appear also while typing.</li>
+                <li>I can't sort the search result by price which is a downside but I can filter the results by categories.</li>
+                <li>The shopping cart is visible all the time and I don't need to click it open from somewhere.</li>
+                <li>Hierarchy of the navigation is clear.</li>
+              </ul>
+            <img src="img/kruoka-notes.jpg" alt="Foodie" class="img-responsive img-case">
+            <p class="caption mb20">Screenshot of K-Ruoka.</p>
+            <p>
+          </div>
+          <div class="col-md-4">
+            <p class="title">Design process</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>After the research I decided to redesign the grocery shopping experience in K-Ruoka app because I wanted to make the journey from deciding to shop online to purchase easier. Also, I felt that grocery shopping in the app was logically a bit different from the desktop.</p>
+            <p><span class="bold">Use cases:</span> I started te redesign by writing down use cases based on my test usage.</p>
+            <p>As a user, I want to...
+            <ul class="responsibilities">
+                <li>first choose the store where I want to by my groceries.</li>
+                <li>see which items are my favorite and most bought.</li>
+                <li>browse and filter different categories.</li>
+                <li>sort the items.</li>
+                <li>search for a specific item.</li>
+                <li>add items to my cart.</li>
+                <li>check my cart and edit it.</li>
+                <li>have an easy journey from cart to purchase.</li>
+                <li>choose between delivery and pick up.</li>
+              </ul>
+            <p><span class="bold">Benchmarking: </span>In addition I benchmarked Amazon's way of grocery shopping in Whole Foods and in Amazon Fresh. I liked the design, because it gives a visual overview of the items and also highlights some of the categories which can be used for growth hacking.</p>
+            <img src="img/wholefoods.gif" alt="Whole foods" class="img-responsive img-case img-gif">
+            <p class="caption mb20">Whole foods in Amazon.</p>
+            <p>After I had wrote down the use cases and benchmarked Amazon I started to create wireframes for the screens. For this I didn't draw anything by hand because I had quite clear concept in my head.</p>
+            <p><span class="bold">Wireframes: </span>The on issue I found out was that <i>picking a store is sometimes confusing and also easily forgetten</i>. I have also noticed this while observing other people using the services. Currently the user can either start shopping by using an old shopping list which takes the user to the specific store where the list was created or the user can start doing online order without ready made list which takes the user to the store choosing view. I wanted to simplify this, so I decided to design the first phase to always be choosing of the store.</p>
+            <div class="col-sm-6">
+              <img src="img/kruoka-start.gif" alt="K-Ruoka" class="img-responsive img-case img-gif img-gif-sidebyside">
+            </div>
+            <div class="col-sm-6">
+              <img src="img/pick-store.png" alt="Picking a store" class="img-responsive img-case">
+            </div>
+            <p class="caption mb20">Choosing a store current way and my solution.</p>
+            <p>Currently, if the user chooses to use an old shopping list it doesn't move the items to the cart. My idea is that after the store is chosen the user could choose old shopping list which would create a shopping cart based on the list or start a new, but for now I skipped it.</p>
+            <p>In the groceries home page the user gets a quick overview of different sections which could be personalized and also used as promotion space. The search bar, shopping cart, store and the option to search based on categories is always visible. Currently, the user sees the most bought items and the different categories open from the menu.</p>
+            <div class="col-sm-6">
+              <img src="img/kruoka-home.jpeg" alt="K-Ruoka" class="img-responsive img-case img-gif img-gif-sidebyside">
+            </div>
+            <div class="col-sm-6">
+              <img src="img/home-groceries.png" alt="Groceries home" class="img-responsive img-case">
+            </div>
+            <p class="caption mb20">Groceries home view current way and my solution.</p>
+            <p>If the user chooses to browse products based on product categories the view is similar with the home view and the user can filter the results by sub-categories. In the product category page the service could again promote the most bought items and also show for example what's in the season. Currently, the user chooses the category and sub-category from the menu which opens the product list view and unselecting directs the user to the most bought view.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="img/kruoka-product.jpeg" alt="K-Ruoka" class="img-responsive img-case img-gif img-gif-sidebyside">
+              </div>
+              <div class="col-sm-6">
+                <img src="img/category-view.png" alt="Category view" class="img-responsive img-case">
+              </div>
+            </div>
+            <p class="caption mb20">Category view current way and my solution.</p>
+            <p>If a user selects sub-category the products are then showed as a list view. Going back or unselecting a sub-category would show again the category view.</p>
+            <img src="img/subcategory-view.png" alt="Sub-category view" class="img-responsive img-case mw40">
+            <p class="caption mb20">Sub-category view and a product list</p>
+            <p>Adding products to the shopping cart happens by tapping the plus icon. User can view her shopping cart by tapping the shopping cart icon in the top right. From there the user can also edit the cart more easily because the action area is consistent with the other buttons. From the cart view the user can proceed to checkout. Additionally, the cart should show the cost of the purchase. Currently, the user can see their shopping list by clicking the back arrow and proceed from there to the checkout.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="img/cart-editing.gif" alt="Cart editing K-Ruoka" class="img-responsive img-case img-gif img-gif-sidebyside">
+              </div>
+              <div class="col-sm-6">
+                <img src="img/shopping-cart.png" alt="Cart editing" class="img-responsive img-case">
+              </div>
+            </div>
+            <p class="caption mb20">Editing shopping cart and proceeding to checkout.</p>
+            <p>After the checkout in the current K-Ruoka app the user can choose the delivery method and check if there is home delivery available. I removed the checking option because in the beginning the user has already decided the store based on the delivery method and location. The user can now choose between the home delivery and pick up and if the store doesn't support for example home delivery the only option is the pickup.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="img/kruoka-delivery.PNG" alt="K-Ruok delivery" class="img-responsive img-case">
+              </div>
+              <div class="col-sm-6">
+                <img src="img/delivery-option.png" alt="Cart editing" class="img-responsive img-case">
+              </div>
+            </div>
+            <p class="caption mb20">Choosing the delivery option.</p>
+            <p>If the user chooses home delivery the journey would go as in the desktop version. The user would write her postal code and check the available time slots and choose the delivery time. In the pickup, the user would also choose the time. Then the user would choose the payment method and finalize the delivery.</p>
+            <p>For this practice, I haven't yet designed those steps and I find them pretty good already in the app.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p class="title">Result</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>I hopefully improved the buying process and simplified a bit. I also tried to make the process more aligned with the desktop version to reduce confusion and opportunities for user errors.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="title">Aftermath</p>
+          </div>
+          <div class="col-md-8 mb60">
+            <p>It was interesting to get more familiar with the online grocery shopping. However, I feel that home delivery is quite expensive for a one-person households even though it's easier to buy food for a longer time if there is no car available to use. It was interesting to see that in Foodie the collecting of items costed more than the actual delivery. I think there are a lot of opportunities to improve the online grocery shopping and make it more appealing for one-person households.</p>
+            <p>This was my first "redesign" challenge and it was interesting and fun to do this. Even though I didn't make anything high-fidelity I feel that the concept idea is undertandable and of course there is always something to improve even with this one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="probootstrap-footer case-redesign-app">
+            <div class="probootstrap-backtotop"><a href="#" class="js-backtotop"><i class="icon-chevron-thin-up"></i></a></div>
+            <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-md-push-1">
+                <div class="probootstrap-footer-widget">
+                  <h4>Contact Info</h4>
+                  <ul class="probootstrap-contact-info">
+                    <li><i class="icon-mail"></i><span>annahurtta(at)gmail.com</span></li>
+                    <li><i class="icon-phone2"></i><span>+358 (0)44 010 1992</span></li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+             <div class="row">
+               <div class="col-md-12 text-center border-top">
+                 <p class="mb0">&copy; Copyright 2020 Designed by Anna Hurtta</p>
+               </div>
+             </div>
+           </div>
+        </footer>  
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

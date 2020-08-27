@@ -54,7 +54,7 @@ a.link-case:hover > h3{
 	max-width: 70%;
 }
 .mw40{
-	max-width: 40%;
+	max-width: 40% !important;
 }
 .title{
 	color: #d90098;
@@ -157,6 +157,9 @@ p{
 }
 .case-thesis h4{
 	color: #43494e !important;
+}
+.case-redesign-app{
+	background-color: #BDB2FF;
 }
 .case-booking-app{
 	background-color: #FFADAD;
